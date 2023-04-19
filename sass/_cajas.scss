@@ -1,14 +1,11 @@
 .txt-cajas {
-    display: inline-block;
-    width: 622px;
-    height: 137px;
-    position: relative;
-    left: 691px;
-    bottom: -182px;
-    color: white;
-  }
-  
-  
+  display: inline-block;
+  width: 622px;
+  height: 137px;
+  position: relative;
+  left: 691px;
+  bottom: -182px;
+  color: white;
   .txt-cajas2 {
     display: inline-block;
     width: 622px;
@@ -18,25 +15,17 @@
     bottom: 102px;
     color: white;
   }
-  
-  .img-cajas2 {
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    padding: auto;
-    margin: auto;
-    position: relative;
-    right:-64px;
-    bottom: -35px;
-  }
-  
-  .parrafo1 {
-    color: white;
-    padding: 105px;
-    text-align: center;
-  }
-  
-  
+}
+
+.img-cajas2 {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  padding: auto;
+  margin: auto;
+  position: relative;
+  right:-64px;
+  bottom: -35px;
   .img5 {
     width: 248px;
       height: 235px;
@@ -46,18 +35,19 @@
       left: 303px;
       bottom: 60px;
   }
-  .img24 {
-    width: 248px;
-    height: 235px;
-   position: relative;
-    padding: 5px;
-    margin: 80px;
-    left: -7px;
-    bottom: 119px;
-  }
-  .social {
-    margin: 50px;
-  }
+}
+
+.img24 {
+  width: 248px;
+  height: 235px;
+ position: relative;
+  padding: 5px;
+  margin: 80px;
+  left: -7px;
+  bottom: 119px;
+}
+.social {
+  margin: 50px;
   .social p {
     text-align: center;
     font-size: 30px;
@@ -65,73 +55,59 @@
     color: white;
     padding: 30px;
   }
-  .links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .links a {
-    margin: 0 30px;
-  }
-  
-  .links a i {
-    font-size: 3rem;
-  }
-  
-  table{
-	background-color: white;
-	text-align: left;
-	border-collapse: collapse;
-	width: 100%;
 }
 
-th, td{
-	padding: 20px;
-}
-
-thead{
-	background-color: #000000;
-	border-bottom: solid 5px #000000;
-	color: rgb(0, 0, 0);
-}
-
-tr:nth-child(even){
-	background-color: #000000;
-}
-
-tr:hover td{
-	background-color: #7a7a7a;
-	color: rgb(0, 0, 0);
-}
-tbody, td, tfoot, th, thead, tr {
-    border-color: inherit;
-    border-style: solid;
-    border-width: 0;
-    color: rgb(255, 246, 255);
-    background: #193855;
-}
-.footer-links {
-  background: #2f3640;
-  color: #616161;
-  font-size: 12px;
-  padding: 35px 0;
-}
-
-.footer-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  align-items: flex-start;
+.links {
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-.footer-container ul {
-  margin: 0 auto;
+.links a {
+  margin: 0 30px;
 }
 
-.footer-links li {
-  line-height: 2.8;
+.links a i {
+  font-size: 3rem;
+}
+
+table{
+background-color: white;
+text-align: left;
+border-collapse: collapse;
+width: 100%;
+}
+
+th, td{
+padding: 20px;
+}
+
+thead{
+background-color: #000000;
+border-bottom: solid 5px #000000;
+color: rgb(0, 0, 0);
+}
+
+tr:nth-child(even){
+background-color: #000000;
+}
+
+tr:hover td{
+background-color: #b6a5a5;
+color: rgb(0, 0, 0);
+}
+tbody, td, tfoot, th, thead, tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 5px;
+  color: rgb(255, 246, 255);
+  background: #193855;
+}
+.footer-links {
+background: #2f3640;
+color: #616161;
+font-size: 12px;
+padding: 35px 0;
 }
 
 .footer {
@@ -142,4 +118,18 @@ tbody, td, tfoot, th, thead, tr {
   text-align: center;
   font-size: 1rem;
   padding-bottom: 20px;
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    color: #fff;
+  }
+  .footer-links li {
+    line-height: 2.8;
+  }
+  .footer-container ul {
+    margin: 0 auto;
+  }
 }

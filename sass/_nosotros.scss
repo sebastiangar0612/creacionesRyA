@@ -7,37 +7,40 @@
     color: #fff;
     margin: 15px;
     padding-bottom: 25px;
+     padding: 50px;
+     text-align: center;
+     padding-left: 1px;
   }
   
-  .titulo1{
-    margin: px;
-    padding: 50px;
+  .parrafo1 {
+    color: white;
+    padding: 105px;
     text-align: center;
-    padding-left: 1px;
+    font-size: 20px;
   }
   .social {
     margin: 50px;
+    .social p {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 20px;
+      color: white;
+      padding: 30px;
+    }
   }
-  .social p {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: white;
-    padding: 30px;
-  }
+
   .links {
     display: flex;
     align-items: center;
     justify-content: center;
+    .links a {
+      margin: 0 30px;
+    }
+    .links a i {
+      font-size: 3rem;
+    }
   }
-  
-  .links a {
-    margin: 0 30px;
-  }
-  
-  .links a i {
-    font-size: 3rem;
-  }
+
   .footer-links {
     background: #2f3640;
     color: #616161;
@@ -51,16 +54,9 @@
     gap: 10px;
     align-items: flex-start;
     justify-content: center;
+    color: #fff;
   }
-  
-  .footer-container ul {
-    margin: 0 auto;
-  }
-  
-  .footer-links li {
-    line-height: 2.8;
-  }
-  
+
   .footer {
     background: #2f3640;
     color: #616161;
@@ -69,4 +65,12 @@
     text-align: center;
     font-size: 1rem;
     padding-bottom: 20px;
+  }
+
+  .footer-links li {
+    line-height: 2.8;
+  }
+  .footer-container ul {
+    margin: 0 auto;
+   
   }

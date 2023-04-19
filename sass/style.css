@@ -8,6 +8,7 @@
   color: #fff;
   font-size: 15px;
   border: 1px solid #fff;
+  margin-top: 15px;
 }
 
 .btn:hover {
@@ -16,7 +17,7 @@
 
 .img {
   width: 100%;
-  height: 550px;
+  height: 760px;
   background: url("../img/Cajas-de-Regalo-redondas-para-flores-flosrist-cajas-de-cart-n-para-recuerdos-de-fiesta-de.jpg") no-repeat center center/cover;
   display: flex;
   flex-direction: column;
@@ -53,24 +54,29 @@
   gap: 25px;
   margin: 70px 0;
 }
-
-.txt img {
+.txt .txt img {
   width: 200px;
   height: 200px;
-  margin-left: 52px;
+  margin-left: 40px;
 }
-
-.txt h3 {
+.txt .txt h3 {
   font-size: 20px;
   margin: 10px 0;
 }
-
-.txt a {
+.txt .txt a {
   padding: 10px 0;
   color: #ececec;
   text-transform: uppercase;
   display: inline-block;
   font-weight: bold;
+}
+
+.social p {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+  padding: 30px;
 }
 
 .banner .content {
@@ -97,13 +103,12 @@
   gap: 10px;
   align-items: flex-start;
   justify-content: center;
+  color: #fff;
 }
-
-.footer-container ul {
+.footer-container .footer-container ul {
   margin: 0 auto;
 }
-
-.footer-links li {
+.footer-container .footer-container ul .footer-links li {
   line-height: 2.8;
 }
 
@@ -126,20 +131,22 @@
   color: #fff;
   margin: 15px;
   padding-bottom: 25px;
-}
-
-.titulo1 {
-  margin: px;
   padding: 50px;
   text-align: center;
   padding-left: 1px;
 }
 
+.parrafo1 {
+  color: white;
+  padding: 105px;
+  text-align: center;
+  font-size: 20px;
+}
+
 .social {
   margin: 50px;
 }
-
-.social p {
+.social .social p {
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
@@ -152,12 +159,10 @@
   align-items: center;
   justify-content: center;
 }
-
-.links a {
+.links .links a {
   margin: 0 30px;
 }
-
-.links a i {
+.links .links a i {
   font-size: 3rem;
 }
 
@@ -174,14 +179,7 @@
   gap: 10px;
   align-items: flex-start;
   justify-content: center;
-}
-
-.footer-container ul {
-  margin: 0 auto;
-}
-
-.footer-links li {
-  line-height: 2.8;
+  color: #fff;
 }
 
 .footer {
@@ -194,6 +192,14 @@
   padding-bottom: 20px;
 }
 
+.footer-links li {
+  line-height: 2.8;
+}
+
+.footer-container ul {
+  margin: 0 auto;
+}
+
 .txt-cajas {
   display: inline-block;
   width: 622px;
@@ -203,8 +209,7 @@
   bottom: -182px;
   color: white;
 }
-
-.txt-cajas2 {
+.txt-cajas .txt-cajas2 {
   display: inline-block;
   width: 622px;
   height: 137px;
@@ -224,14 +229,7 @@
   right: -64px;
   bottom: -35px;
 }
-
-.parrafo1 {
-  color: white;
-  padding: 105px;
-  text-align: center;
-}
-
-.img5 {
+.img-cajas2 .img5 {
   width: 248px;
   height: 235px;
   position: relative;
@@ -254,8 +252,7 @@
 .social {
   margin: 50px;
 }
-
-.social p {
+.social .social p {
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
@@ -299,14 +296,14 @@ tr:nth-child(even) {
 }
 
 tr:hover td {
-  background-color: #7a7a7a;
+  background-color: #b6a5a5;
   color: rgb(0, 0, 0);
 }
 
 tbody, td, tfoot, th, thead, tr {
   border-color: inherit;
   border-style: solid;
-  border-width: 0;
+  border-width: 5px;
   color: rgb(255, 246, 255);
   background: #193855;
 }
@@ -318,22 +315,6 @@ tbody, td, tfoot, th, thead, tr {
   padding: 35px 0;
 }
 
-.footer-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.footer-container ul {
-  margin: 0 auto;
-}
-
-.footer-links li {
-  line-height: 2.8;
-}
-
 .footer {
   background: #2f3640;
   color: #616161;
@@ -342,6 +323,20 @@ tbody, td, tfoot, th, thead, tr {
   text-align: center;
   font-size: 1rem;
   padding-bottom: 20px;
+}
+.footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  color: #fff;
+}
+.footer .footer-links li {
+  line-height: 2.8;
+}
+.footer .footer-container ul {
+  margin: 0 auto;
 }
 
 /*mixin  */
@@ -384,8 +379,7 @@ tbody, td, tfoot, th, thead, tr {
 .social {
   margin: 50px;
 }
-
-.social p {
+.social .social p {
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
@@ -398,12 +392,10 @@ tbody, td, tfoot, th, thead, tr {
   align-items: center;
   justify-content: center;
 }
-
-.links a {
+.links .links a {
   margin: 0 30px;
 }
-
-.links a i {
+.links .links a .links a i {
   font-size: 3rem;
 }
 
@@ -412,22 +404,6 @@ tbody, td, tfoot, th, thead, tr {
   color: #616161;
   font-size: 12px;
   padding: 35px 0;
-}
-
-.footer-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.footer-container ul {
-  margin: 0 auto;
-}
-
-.footer-links li {
-  line-height: 2.8;
 }
 
 .footer {
@@ -439,10 +415,31 @@ tbody, td, tfoot, th, thead, tr {
   font-size: 1rem;
   padding-bottom: 20px;
 }
+.footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.footer .footer-links li {
+  line-height: 2.8;
+}
+.footer .footer-container ul {
+  margin: 0 auto;
+  line-height: 2.8;
+}
+
+.footer-container ul {
+  margin: 0 auto;
+  line-height: 2.8;
+  color: white;
+}
 
 form {
   background: #c6c6ce;
   width: 100%;
+  margin-top: 55px;
   padding: 10px 0;
   border-radius: 10px;
   box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
@@ -547,9 +544,9 @@ button {
 
 .footer-container ul {
   margin: 0 auto;
+  line-height: 2.8;
 }
-
-.footer-links li {
+.footer-container ul .footer-links li {
   line-height: 2.8;
 }
 
@@ -575,7 +572,8 @@ body {
   background-color: #000000;
   /* Pattern from https://www.heropatterns.com/ */
   background-color: #3c5b81;
-  background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%234388e1' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-color: #223556;
+  background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0h2v20H9V0zm25.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm-20 20l1.732 1-10 17.32-1.732-1 10-17.32zM58.16 4.134l1 1.732-17.32 10-1-1.732 17.32-10zm-40 40l1 1.732-17.32 10-1-1.732 17.32-10zM80 9v2H60V9h20zM20 69v2H0v-2h20zm79.32-55l-1 1.732-17.32-10L82 4l17.32 10zm-80 80l-1 1.732-17.32-10L2 84l17.32 10zm96.546-75.84l-1.732 1-10-17.32 1.732-1 10 17.32zm-100 100l-1.732 1-10-17.32 1.732-1 10 17.32zM38.16 24.134l1 1.732-17.32 10-1-1.732 17.32-10zM60 29v2H40v-2h20zm19.32 5l-1 1.732-17.32-10L62 24l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM111 40h-2V20h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zM40 49v2H20v-2h20zm19.32 5l-1 1.732-17.32-10L42 44l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM91 60h-2V40h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM39.32 74l-1 1.732-17.32-10L22 64l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM71 80h-2V60h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM120 89v2h-20v-2h20zm-84.134 9.16l-1.732 1-10-17.32 1.732-1 10 17.32zM51 100h-2V80h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM100 109v2H80v-2h20zm19.32 5l-1 1.732-17.32-10 1-1.732 17.32 10zM31 120h-2v-20h2v20z' fill='%23e7e2ef' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
   color: #1e272e;
   color: #000000;
   font-size: 16px;
@@ -653,7 +651,7 @@ hr {
 /* SIGUENOS */
 /* Links */
 /* Mobil */
-@media (max-width: 700px) {
+@media (max-width: 718px) {
   .menu-btn {
     display: block;
   }
@@ -743,7 +741,7 @@ hr {
   }
 }
 form {
-  width: 90%;
+  width: 100%;
 }
 form .social .links {
   height: 50px;
