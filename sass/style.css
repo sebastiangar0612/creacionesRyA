@@ -651,9 +651,32 @@ hr {
 /* SIGUENOS */
 /* Links */
 /* Mobil */
-@media (max-width: 718px) {
+@media (max-width: 1280px) {
+  .txt {
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+  }
+  .txt img {
+    width: 200px;
+    height: 200px;
+  }
+  .txt p {
+    padding: 2px;
+  }
+}
+@media (max-width: 768px) {
   .menu-btn {
     display: block;
+  }
+  .txt {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .txt img {
+    margin-left: 150px;
+  }
+  .txt p {
+    padding: 2px;
   }
   .menu-btn:hover {
     opacity: 0.5;
@@ -686,9 +709,6 @@ hr {
   .nav-main ul.nav-menu-right {
     margin-right: 50px;
   }
-  .txt {
-    grid-template-columns: repeat(2, 1fr);
-  }
   .banner .content,
   .cards-banner-two .content {
     width: 80%;
@@ -698,8 +718,11 @@ hr {
   }
 }
 @media (max-width: 500px) {
-  .txt {
-    grid-template-columns: 1fr;
+  .titulo {
+    font-size: 50px;
+  }
+  .txt img {
+    margin-left: 40px;
   }
   .banner .content,
   .cards-banner-two .content {
@@ -743,6 +766,7 @@ hr {
 form {
   width: 100%;
 }
+
 form .social .links {
   height: 50px;
 }/*# sourceMappingURL=style.css.map */
